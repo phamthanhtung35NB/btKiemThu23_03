@@ -13,7 +13,7 @@ public class Main {
 
     // Xác định khoảng cách an toàn tối thiểu theo vận tốc
     int khoangCachAnToan = 0;
-    if (vt == 60) {
+    if (vt <= 60) {
       khoangCachAnToan = 35;
     } else if (vt <= 80) {
       khoangCachAnToan = 55;
